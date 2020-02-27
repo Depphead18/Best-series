@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box
+}
+
+.cover {
+  background: url(https://image.freepik.com/darmowe-zdjecie/czerwone-tlo-betonu_53876-65278.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  font-family: 'Trade Winds', serif;
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+}
+
+.main-title {
+  font-size: 8rem;
+  margin: 2rem 0;
+}
+
+.page{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+}
