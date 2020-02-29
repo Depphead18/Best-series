@@ -1,9 +1,22 @@
 *{
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
+.page{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+}
+
+.content{
+  width: 95%;
+  margin: auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+/* HEADER */
+
 .cover {
-  background: url(https://image.freepik.com/darmowe-zdjecie/czerwone-tlo-betonu_53876-65278.jpg);
+  background: url('https://media.istockphoto.com/videos/abstract-background-video-id462883716?s=640x640') no-repeat center;
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -11,6 +24,7 @@
   font-family: 'Trade Winds', serif;
   text-align: center;
   display: table;
+  margin: auto;
 }
 
 .wrapper {
@@ -20,10 +34,34 @@
 }
 
 .main-title {
-  font-size: 8rem;
+  font-size: 4rem;
   margin: 2rem 0;
+  display: table;
+  margin-bottom: 0;
 }
 
-.page{
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+/* COMEDY */
+
+section img{
+  height: 100%;
+  width: 100%;
+}
+
+article h2{
+  margin: 1.5rem auto;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: red;
 }
