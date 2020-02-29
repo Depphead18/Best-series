@@ -2,14 +2,24 @@
   box-sizing: border-box;
 }
 
-.page{
+body{
   background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
 }
 
+.page{
+  font-family: 'Raleway', serif;
+}
+
 .content{
-  width: 95%;
+  width: 100%;
   margin: auto;
-  padding: .5rem 1rem;
+  text-align: center;
+}
+
+.comedy, .horror{
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: 2.5rem 1rem;
   text-align: center;
 }
 
@@ -20,8 +30,6 @@
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  color: #fff;
-  font-family: 'Trade Winds', serif;
   text-align: center;
   display: table;
   margin: auto;
@@ -31,6 +39,9 @@
   display: table-cell;
   vertical-align: middle;
   padding: 0 .625rem;
+  color: #fff;
+  font-family: 'Trade Winds', serif;
+  text-align: center;
 }
 
 .main-title {
@@ -40,28 +51,63 @@
   margin-bottom: 0;
 }
 
-/* COMEDY */
+/* ARTICLE */
 
-section img{
-  height: 100%;
-  width: 100%;
-}
-
-article h2{
+article p{
   margin: 1.5rem auto;
 }
 
-.btn {
+/* COMEDY */
+
+.comedy{
+  background-color: #6b0000;
+  width: 100vw;
+}
+
+.comedy-series{
+  background-color: #6b0000;
+}
+
+.comedy-title{
+  font-size: 2.5rem;
+  font-style: bold;
+  color: #fff;
+}
+
+section img{
+  height: 95%;
+  width: 95%;
+}
+
+.series {
+  margin: 25px auto;
+}
+
+.button .btn {
   text-decoration: none;
-  font-family: Arial, sans-serif;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.42857143;
   padding: 6px 12px;
   margin-bottom: 10px;
-  border: 1px solid transparent;
+  border: 5px solid transparent;
   border-radius: 4px;
   white-space: nowrap;
   vertical-align: middle;
-  background-color: red;
+  background-color: #fff;
+  color: #6b0000;
+}
+
+.atypical, .white-gold, .girlboss p {
+  font-size: 1.3rem;
+  color: #fff;
+  margin: 1rem auto;
+}
+
+/* HORROR */
+
+.horror h3{
+  font-size: 2.5rem;
+  font-style: bold;
+  color: #6b0000;
 }
