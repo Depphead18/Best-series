@@ -1,3 +1,7 @@
+/* =============================
+          BASE STILES 
+==============================*/
+
 *{
   box-sizing: border-box;
 }
@@ -13,13 +17,6 @@ body{
 .content{
   width: 100%;
   margin: auto;
-  text-align: center;
-}
-
-.comedy, .horror{
-  width: 95%;
-  margin: 1.5rem auto;
-  padding: 2.5rem 1rem;
   text-align: center;
 }
 
@@ -49,65 +46,177 @@ body{
   margin: 2rem 0;
   display: table;
   margin-bottom: 0;
-}
-
-/* ARTICLE */
-
-article p{
-  margin: 1.5rem auto;
-}
-
-/* COMEDY */
-
-.comedy{
-  background-color: #6b0000;
-  width: 100vw;
-}
-
-.comedy-series{
-  background-color: #6b0000;
-}
-
-.comedy-title{
-  font-size: 2.5rem;
-  font-style: bold;
-  color: #fff;
-}
-
-section img{
-  height: 95%;
-  width: 95%;
-}
-
-.series {
-  margin: 25px auto;
-}
-
-.button .btn {
-  text-decoration: none;
   text-align: center;
-  font-size: 20px;
-  line-height: 1.42857143;
-  padding: 6px 12px;
-  margin-bottom: 10px;
-  border: 5px solid transparent;
-  border-radius: 4px;
-  white-space: nowrap;
-  vertical-align: middle;
-  background-color: #fff;
-  color: #6b0000;
 }
 
-.atypical, .white-gold, .girlboss p {
-  font-size: 1.3rem;
-  color: #fff;
-  margin: 1rem auto;
+
+  /*========================
+        PHONE STYLE 
+  ========================*/
+
+@media screen and (max-width: 600px){
+
+    /* ARTICLE */
+
+    article p{
+      padding: 2rem 1rem;
+      font-size: 1.2rem;
+    }
+
+    /* COMEDY */
+
+    .comedy{
+      width: 100%;
+      padding: 2.5rem 1rem;
+      text-align: center;
+      background-color: #6b0000;
+    }
+
+    .comedy-title{
+      font-size: 2.5rem;
+      font-style: bold;
+      color: #fff;
+    }
+
+    section img{
+      height: 95%;
+      width: 95%;
+    }
+
+    .series {
+      margin: 25px auto;
+    }
+
+    .button .btn {
+      text-decoration: none;
+      text-align: center;
+      font-size: 20px;
+      line-height: 1.42857143;
+      padding: 6px 12px;
+      margin-bottom: 10px;
+      border: 5px solid transparent;
+      border-radius: 4px;
+      white-space: nowrap;
+      vertical-align: middle;
+      background-color: #fff;
+      color: #6b0000;
+    }
+
+  
+  .atypical, .white-gold, .girlboss {
+      margin-bottom: 2rem;
+    }
+  
+    .atypical, .white-gold, .girlboss p {
+      font-size: 1.3rem;
+      color: #fff;
+    }
+
+    /* HORROR */
+
+    .horror h3{
+      font-size: 2.5rem;
+      font-style: bold;
+      color: #6b0000;
+    }
+  }
+
+
+/* ==========================
+      STYLE FOR TABLET 
+===========================*/
+
+@media screen and (min-width: 768px) {
+  
+    article p{
+            padding: 3rem 3rem;
+            font-size: 2rem;
+        }
+  
+    .main-title {
+            font-size: 4.5rem;
+            display: table;
+            margin-bottom: 0;
+            text-align: center;
+        }
+  
+    .cover {
+            top: 0;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            display: table;
+            margin: auto;
+        }
+      
+    .comedy{
+            width: 100%;
+            padding: 4rem 1rem;
+            margin-bottom: 10rem auto;
+            text-align: center;
+            background-color: #6b0000;
+  }
+
+    .comedy-title{
+            font-size: 4rem;
+            padding: 1rem 1rem;
+            font-style: bold;
+            color: #fff;
+    }
+  
+    .series {
+            margin: 50px auto;
+    }
+
+    section img{
+            height: 90%;
+            width: 90%;
+    }
+  
+    .atypical, .white-gold, .girlboss {
+            margin-bottom: 3rem;
+    }
+  
+    .atypical, .white-gold, .girlboss p {
+            font-size: 3rem;
+            color: #fff;
+            padding-bottom: 1rem;
+            margin-top: 0px;
+    }
+
+    .button .btn {
+            text-decoration: none;
+            text-align: center;
+            font-size: 30px;
+            line-height: 1.42857143;
+            padding: 6px 12px;
+            border: 20px solid transparent;
+            border-radius: 4px;
+            white-space: nowrap;
+            vertical-align: middle;
+            background-color: #fff;
+            color: #6b0000;
+    }
+
+    /* HORROR */
+  
+    .horror{
+            padding: 2.5rem 1rem;
+
+    }
+
+    .horror h3{
+            font-size: 4rem;
+            padding: 1rem 1rem;
+            font-style: bold;
+            color: #6b0000;
+    }
 }
 
-/* HORROR */
+/* ============================
+      SRYLE FOR DESKTOPS
+=============================*/
 
-.horror h3{
-  font-size: 2.5rem;
-  font-style: bold;
-  color: #6b0000;
-}
+@media only screen and (min-width: 992px) {
+  
+} 
